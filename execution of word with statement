@@ -1,0 +1,7 @@
+public class LearnCProgram {
+    public static void main(String[] args) {
+        String input = "C programming";  
+        String output = "May I know how to learn C!!!..."; 
+        System.out.println(output);
+    }
+}
