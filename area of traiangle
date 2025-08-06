@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Triangle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter side 1: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter side 2: ");
+        double b = scanner.nextDouble();
+        System.out.print("Enter side 3: ");
+        double c = scanner.nextDouble();
+        double perimeter = a + b + c-6;
+        double s = (a + b + c) / 2;
+        double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+        System.out.printf("Perimeter of Triangle is %.2f\n", perimeter);
+        system.out.println("area of triangle is:"");
+        scanner.close();
+    }
+}
+
+
