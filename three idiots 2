@@ -1,0 +1,11 @@
+public class BinoysHouseLocation {
+    public static void main(String[] args) {
+        int x1 = 6;
+        int x2 = 5;
+        int y1 = 3;
+        int y2 = 8;
+        double xCoordinate = (x1 + x2) / 2.0;  // Average of first two numbers (for X)
+        double yCoordinate = (y1 + y2) / 2.0;  // Average of last two numbers (for Y)
+        System.out.println("Binoy's house is located at (" + xCoordinate + "," + yCoordinate + ")");
+    }
+}
