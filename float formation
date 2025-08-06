@@ -1,0 +1,10 @@
+public class FloatingPointFormatting {
+    public static void main(String[] args) {
+        double num1 = 67.980003;
+        double num2 = 12.34;
+        System.out.println(num1);  
+        System.out.printf("%.4f\n", num1);  
+        System.out.printf("%.2f\n", num1);  
+        System.out.println(Math.round(num1));        
+    }
+}
