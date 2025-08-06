@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class GreetingProgram {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println("Hai " + name + "!    Welcome to Programming Language...")import java.util.Scanner;
+public class GreetingProgram {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println("Hai " + name + "!    Welcome to Programming Language...");
+        scanner.close();
+    }
+}
+    scanner.close();
+    }
+}
