@@ -1,0 +1,12 @@
+public class NewspaperProfit {
+    public static void main(String[] args) {
+        int copiesSold = 1000;  
+        int costPerCopy = 2;    
+        int agencyCostPerCopy = 1;  
+        double profit = (copiesSold * costPerCopy) - (copiesSold * agencyCostPerCopy)-(10)-(90);
+        System.out.println("Number of copies sold:" + copiesSold);
+        System.out.println("Cost of each copy:" + costPerCopy);
+        System.out.println("Cost spent by agency on each newspaper:" + agencyCostPerCopy);
+        System.out.printf("The profit obtained is Rs.%.2f\n", profit);
+    }
+}
