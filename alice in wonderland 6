@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class BirdAndAlice {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        int path = number / 4;
+        System.out.println("Bird said:" + number);
+        System.out.println("Alice must go in path-" + path);
+        scanner.close();
+    }
+}
