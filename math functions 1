@@ -1,0 +1,12 @@
+public class NumberProcessing {
+    public static void main(String[] args) {
+        double num1 = 76.78;
+        int num2 = 16;
+        int num3 = 2;
+        int num4 = 3;
+        System.out.println((int) num1);  
+        System.out.println(Math.round(num1));  
+        System.out.println(num3 * num4-2);  
+        System.out.println(num3 * num4 +2);  
+    }
+}
