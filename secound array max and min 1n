@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class MaxMinFinder {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if (n <= 0) {
+            System.out.println("Array size must be greater than 0.");
+            scanner.close();
+            return;
+        }
+        int number = scanner.nextInt();
+        int sum = number;
+        int max = number;
+        int min = number;
+        for (int i = 1; i < n; i++) {
+            number = scanner.nextInt();
+
+            sum += number;
+
+            if (number > max) {
+                max = number;
+            }
+
+            if (number < min) {
+                min = number;
+            }
+        }
+        System.out.println("Sum="+max);
+        scanner.close();
+    }
+}
